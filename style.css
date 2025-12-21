@@ -1,0 +1,41 @@
+.title {
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+.description {
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+.container {
+    text-align: center;
+    margin: 10px;
+}
+
+.image-box {
+    display: inline-block;
+    width: 400px;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(207, 0, 0);
+    border: 10px solid rgb(0, 177, 0);
+}
+
+.image-box img {
+    width: 100%;
+    height: auto;
+}
+
+.box-heading {
+    display: inline-block;
+}
+
+.box-heading h2 {
+    text-align: center;
+}
