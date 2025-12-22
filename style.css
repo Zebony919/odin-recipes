@@ -1,6 +1,8 @@
 .title {
-    width: 200px;
+    width: fit-content;
     margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
     text-align: center;
     border-bottom: 2px solid black;
 }
@@ -32,10 +34,31 @@
     height: auto;
 }
 
+.recipe.image-box {
+    background-color: black;
+    border: 0;
+    padding: 10px;
+}
+
 .box-heading {
     display: inline-block;
 }
 
 .box-heading h2 {
     text-align: center;
+}
+
+.recipe-content {
+    display: block;
+    width: 600px;
+    margin: 50px auto;
+    background-color: black;
+    padding: 20px;
+}
+
+.text-box {
+    background-color: green;
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
 }
